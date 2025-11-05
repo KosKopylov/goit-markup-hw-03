@@ -9,20 +9,21 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.img{
-    block-size: auto;}
+.img{display: block;}
 /* #region header */
 .page-header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
+.page-header{: 1px solid #e7e9fc;}
 .page-nav {
     display: flex;
- 
     justify-content: space-between;
-    gap: 76px;}
+    gap: 76px;
+    align-items: center}
 
 .header-logo{
     font-family: "Raleway",
@@ -35,7 +36,8 @@ body{
     color: #4d5ae5;
     text-decoration: none;
     align-items: center;
-    display: flex;;}
+    display: flex;
+    margin-right: 76px;  }
 
 .nav-list {
             display: flex;
@@ -168,11 +170,16 @@ body{
 
 /* #endregion description */
 /* #region team */
-.team{background-color: #f4f4fd;}
+.team{background-color: #f4f4fd;
+max-width: 100%;
+min-height: 100%;}
 .team-list{
     display: flex;
     gap: 24px;
     list-style: none;
+    margin: 0;
+    justify-content: center;
+    
 }
 .our-team{
     font-family: "Roboto", sans-serif;
@@ -211,7 +218,9 @@ body{
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
     gap: 24px;
+    list-style: none;
     padding-top: 72px;
 }
 .portfolio{
