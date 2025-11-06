@@ -9,6 +9,9 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+ul{margin: 0;
+    list-style: none;
+    padding-left: 0;}
 img{display: block;}
 /* #region header */
 .page-header .container {
@@ -161,8 +164,8 @@ img{display: block;}
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
-        flex-basis: calc((100% - 3 * 24px) / 4)
 }
+.description-list-item{flex-basis: calc((100% - 3 * 24px) / 4)}
 .description-text{
         font-family: "Roboto", sans-serif;
         font-weight: 400;
