@@ -183,6 +183,7 @@ padding: 120px 0}
     list-style: none;
     margin: 0;
     justify-content: center;
+    flex-basis: calc((100% - 72px) / 4);
     
 }
 .our-team{
@@ -198,7 +199,7 @@ padding: 120px 0}
 .team-list-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    flex-basis: calc((100% - 72px) / 4);
+   
 }
 .team-name{
         font-family: "Roboto", sans-serif;
@@ -282,10 +283,8 @@ padding: 120px 0}
     background-color: #2e2f42;
 }
 
-.footer .container{
-        display: flex;
-        flex-direction: column;
-}
+
+
 .footer-logo{
     display: inline-block;
     margin-bottom: 16px;
